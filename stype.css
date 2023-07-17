@@ -1,0 +1,56 @@
+.fixer-header {
+    background: white;
+    padding-top: 26px;
+    position: sticky;
+    top: -26px;
+    z-index: 1;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1110px;
+    max-width: calc(100% - 48px);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+
+}
+
+.navbar .pc-nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul a {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.534);
+    padding: 8px 14px;
+    text-decoration: none;
+}
+
+.navbar .action-links {
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: rgb(9, 9, 76);
+}
+
+.navbar .action-btn {
+    padding: 13px 16px;
+    margin-left: 18px;
+    border-radius: 8px;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 98px;
+    background: rgb(29, 29, 133);
+    font-weight: 500;
+    font-size: 1.4rem;
+    text-align: center;
+    color: aliceblue;
+}
