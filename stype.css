@@ -11,13 +11,16 @@
     margin-right: auto;
     width: 1110px;
     max-width: calc(100% - 48px);
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
 }
 
 .navbar {
     display: flex;
     align-items: center;
     padding: 12px 0;
-
+    margin-right: 300px;
 }
 
 .navbar .pc-nav {
@@ -33,16 +36,22 @@
     text-decoration: none;
 }
 
-.navbar .action-links {
+.action-links {
     font-weight: 500;
     font-size: 1.4rem;
     color: rgb(9, 9, 76);
+    text-decoration: none;
+    width: 70px;
+    padding-right: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-.navbar .action-btn {
+.action-btn {
     padding: 13px 16px;
     margin-left: 18px;
     border-radius: 8px;
+    text-decoration: none;
 }
 
 .btn {
@@ -53,4 +62,13 @@
     font-size: 1.4rem;
     text-align: center;
     color: aliceblue;
+}
+
+.action {
+    display: flex;
+
+}
+
+.title {
+    font-size: 75px;
 }
