@@ -35,15 +35,21 @@
 
 .navbar .pc-nav {
     display: flex;
-    list-style-type: none;
-    margin-left: 50px;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+    border-radius: 12px;
+    text-decoration: none;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 4px;
+    list-style-type: none;
 }
 
-.pc-nav:hover {
-    color: rgb(9, 8, 8);
+.pc-nav a:hover {
+    /* box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); */
+    color: black;
     text-decoration: underline;
+    border-radius: 12px;
+
 
 }
 
@@ -217,4 +223,24 @@
     max-width: calc(100% - 48px);
     margin-left: auto;
     margin-right: auto;
+}
+
+.clients .images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.clients .images a {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 42px;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.clients .images a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
 }
