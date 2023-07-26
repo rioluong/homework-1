@@ -1,5 +1,5 @@
 .fixer-header {
-    background: white;
+    background: #e6f0ff;
     padding-top: 26px;
     position: sticky;
     top: -26px;
@@ -14,6 +14,10 @@
     align-items: center;
     justify-content: space-between;
     display: flex;
+}
+
+.wrap {
+    background: #e6f0ff;
 }
 
 .wrap .content {
